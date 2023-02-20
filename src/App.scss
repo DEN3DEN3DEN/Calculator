@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Calculator {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.Wrapper {
+    display: flex;
+    height: 700px;
+    width: 450px;
+    flex-wrap: wrap;
+    background-color: black;
+    border-radius: 10px;
+    border: 10px solid black;
+    gap: 7px;
+}
+
+.Buttons {
+    width: 23.75%;
+    font-size: 25px;
+    border-radius: 50px;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.Screen {
+    background-color: silver;
+    font-size: 70px;
+    text-align: right;
+    width: 100%;
+    border-radius: 10px;
+}
